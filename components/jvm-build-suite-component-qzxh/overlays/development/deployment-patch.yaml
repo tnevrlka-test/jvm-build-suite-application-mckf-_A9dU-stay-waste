@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-qzxh
+  namespace: jvm-build-caxo-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:dfad2186c36fda591fe151a5a4e15abfbf4780e525b55feedc2f71a2b885e87a
+        name: container-image
+        resources: {}
+status: {}
